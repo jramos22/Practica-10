@@ -17,12 +17,12 @@ function detiene() {
 function limpia() {
     j=0;
     cronometro.innerHTML =`0`
+    inicio();
 
 }
 let intervalID;
 let cronometro = document.getElementById('cronometro');
 let j =0;
-let i = 0;
 let contenedor = document.getElementById('container');
 let iniciar = document.getElementById('iniciar');
 iniciar.addEventListener('click', inicio);
